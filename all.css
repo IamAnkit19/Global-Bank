@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-image: url(vecteezy_abstract-gradient-pastel-blue-and-purple-background-neon_8617161-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+h1{
+    font-size: 30px;
+}
+
+input{
+    width: 180px;
+    padding: 10px 120px 10px 5px;
+    margin: 10px 0px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+button{
+    margin-bottom: 7px;
+    margin-top: 10px;
+    width: 310px;
+    padding: 10px 0px;
+    border-radius: 5px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(171,37,200,1) 0%, rgba(0,212,255,1) 100%);
+    font-size: 15px;
+    color: white;
+}
+
+div{
+    font-size: 22px;
+}
+
+.withdraw-money, .deposite-money, .transfer-money, .beneficiery{
+    margin: 20px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}

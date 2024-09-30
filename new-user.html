@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Bank</title>
+    <link rel="stylesheet" href="new-user-style.css">
+</head>
+
+<body>
+    <main>
+        <div class="new-user">
+            New User Registration
+        </div>
+        <form>
+            <section class="opt-section">
+                <div>
+                    <label for="name">Name</label>
+                    <br>
+                    <input class="input" type="text" id="name" placeholder="Enter your name" required>
+                </div>
+                <div>
+                    <label for="f-name">Father's Name</label>
+                    <br>
+                    <input class="input" type="text" id="f-name" placeholder="Enter father's name" required>
+                </div> 
+            </section>
+            <section class="opt-section">
+                <div>
+                    <label for="dob">Date Of Birth</label>
+                    <br>
+                    <input class="input" type="date" id="dob" required>
+                </div>
+                <div>
+                    <label>Gender</label>
+                    <br>
+                    <input type="radio" id="gender" name="gender">Male
+                    <input type="radio" id="gender" name="gender">Female
+                </div>
+            </section> 
+            <section class="opt-section">
+                <div>
+                    <label for="email">Email</label>
+                    <br>
+                    <input class="input" type="email" id="email" placeholder="Enter your email" required>
+                </div>
+                <div>
+                    <label for="phone">Phone</label>
+                    <br>
+                    <input class="input" type="number" id="phone" placeholder="Enter your mobile number" required>
+                </div>
+            </section>
+            <section class="opt-section">
+                <div>
+                    <label for="amount">Initial Amount(More than 1000)</label>
+                    <br>
+                    <input class="input" type="number" id="amount" placeholder="Enter amount" required>
+                </div>
+                <div>
+                    <label for="username">Create a Username</label>
+                    <br>
+                    <input class="input" type="text" id="username" placeholder="Enter your username" required>
+                </div>
+            </section>
+            <section class="opt-section">
+                <div>
+                    <label for="password">Create a Password</label>
+                    <br>
+                    <input class="input" type="password" id="password" placeholder="Enter your password" required>
+                </div>
+                <div>
+                    <label for="password">Re-Enter Password</label>
+                    <br>
+                    <input class="input" type="password" id="rpassword" placeholder="Re-enter your password" required>
+                </div>
+            </section>
+            <section class="opt-section">
+                <div>
+                    <label for="pin">Create a Transaction Pin</label>
+                    <br>
+                    <input class="input" type="password" id="pin" placeholder="Enter your pin" required>
+                </div>
+                <div>
+                    <label for="pin">Re-Enter Transaction Pin</label>
+                    <br>
+                    <input class="input" type="password" id="rpin" placeholder="Re-enter your pin" required>
+                </div>
+            </section>
+        </form>
+        <button class="register-btn">Register</button>
+    </main>
+</body>
+<!-- <script src="script.js"></script> --> 
+<script type="module" src="script.js"></script>
+</html>

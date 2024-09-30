@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(171,37,200,1) 44%, rgba(0,212,255,1) 100%); */
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    /* background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%); */
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(171,37,200,1) 0%, rgba(0,212,255,1) 100%);
+}
+
+main{
+    margin-top: 100px;
+    margin-right: 250px;
+    margin-left: 250px;
+    border: 1px solid black;
+    height: 500px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.first{
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(realistic-neon-lights-background_23-2148907367.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* position: relative; */
+}
+
+.logo img{
+    mix-blend-mode: plus-lighter;
+}
+
+.second{
+    height: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    /* width: 50%;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%); */
+    /* position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -50px 0 0 -120px; */
+}
+
+.second{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.top{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.input{
+    width: 180px;
+    padding: 10px 75px 10px 5px;
+    margin: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.login-btn{
+    margin-bottom: 7px;
+    margin-top: 10px;
+    width: 262px;
+    padding: 10px 0px;
+    border-radius: 5px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(171,37,200,1) 0%, rgba(0,212,255,1) 100%);
+    font-size: 15px;
+    color: white;
+}
+
+div a{
+    text-decoration: none;
+}
